@@ -6,18 +6,14 @@ This is an API which provides an email sending service using two different email
 
 In order to run the API you need [Gradle](https://gradle.org/install/) and [Java JDK or JRE](http://www.oracle.com/technetwork/java/javase/downloads/index.html).
 
-### Running
+### Running and Testing
 
-Use gradle command to run the application 
+Import the application in eclipse as a gradle project. Then run the **SendemailsTrialApplication.java** as a java application.
+
+You can also use gradle command to run the application 
 
 ```
 gradle bootRun
-```
-
-And if you need to install the dependencies, then the following code can be used
-
-```
-gradle clean
 ```
 
 ## Important
